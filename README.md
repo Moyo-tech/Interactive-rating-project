@@ -29,7 +29,7 @@ Users should be able to:
 
 ### Links
 
-- [Solution URL](https://github.com/Moyo-tech/Interactive-rating-project/blob/main/README-template.md)
+- [Solution URL](https://www.frontendmentor.io/challenges/interactive-rating-component-koxpeBUmI/hub/javascript-es6-semantic-html5-markup-css-TmmDiWHK0S)
 - [Live Site URL](https://effervescent-churros-4169b2.netlify.app/)
 
 ## My process
@@ -42,7 +42,7 @@ I started by observing the figma files to know what area to start from. Built ou
 - Flexbox
 - CSS Grid
 - Mobile-first workflow
-- [ES6+ Javascript](https://www.javascript.com/)
+- [Javascript ES6+](https://www.javascript.com/)
 - BEM Naming Conventions
 - Cross Browser Compatibility
 
