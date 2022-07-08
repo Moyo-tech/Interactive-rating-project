@@ -1,0 +1,175 @@
+@import url("https://fonts.googleapis.com/css2?family=Overpass:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  font-family: "Overpass", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: #131518;
+}
+.rating {
+  width: 412px;
+  height: 416px;
+  margin: auto auto;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: radial-gradient(
+    98.96% 98.96% at 50% 0%,
+    #232a34 0%,
+    #181e27 100%
+  );
+  border-radius: 30px;
+  display: block;
+  visibility: visible;
+}
+
+.rating__container {
+  /* border: 2px solid white; */
+  margin: 25px 25px;
+}
+.rating__star_border {
+  /* border: 2px solid white; */
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #262e38;
+  text-align: center;
+}
+.icon {
+  position: relative;
+  top: -30px;
+  left: 11px;
+}
+
+.rating__heading {
+  position: relative;
+  left: -10px;
+  padding: 10px;
+  font-size: 28px;
+  color: white;
+}
+
+.rating__paragraph {
+  font-size: 15px;
+  color: #969fad;
+  line-height: 24px;
+}
+
+.rating__list {
+  float: center;
+  margin-right: 1rem;
+  /* border: 2px solid white; */
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+.rating__list a {
+  display: inline-block;
+  margin: 0 8px;
+  padding-top: 20px;
+  width: 50px;
+  height: 35px;
+  border-radius: 50%;
+  background-color: #262e38;
+  color: #7c8798;
+  text-decoration: none;
+  list-style: none;
+  text-align: center;
+  transition: 0.1s;
+  /* border: 2px solid white; */
+}
+
+.button_link {
+  border: none;
+  line-height: 50px;
+  text-align: center;
+  width: 341px;
+  height: 45px;
+  border-radius: 50px;
+  background-color: #fc7614;
+  letter-spacing: 2px;
+  color: white;
+  transition: 0.5s;
+}
+.button_link:hover {
+  background-color: white;
+  color: #fc7614;
+}
+
+/* THANK YOU PAGE */
+.result {
+  width: 412px;
+  height: 416px;
+  margin: auto auto;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: radial-gradient(
+    98.96% 98.96% at 50% 0%,
+    #232a34 0%,
+    #181e27 100%
+  );
+  border-radius: 30px;
+  display: none;
+}
+.result__container {
+  margin: 25px 25px;
+}
+.thanks_img {
+  position: relative;
+  top: 20px;
+  margin: auto;
+  display: block;
+}
+.result__content {
+  margin-top: 50px;
+}
+.result__value {
+  position: relative;
+  text-align: center;
+  font-size: 15px;
+  width: 193px;
+  left: 80px;
+  padding: 5px 5px;
+  border-radius: 50px;
+  background-color: #262e38;
+  color: #fc7614;
+}
+.result__para1 {
+  padding-top: 34px;
+  color: white;
+  text-align: center;
+}
+.result__para2 {
+  color: #969fad;
+  font-size: 15px;
+  text-align: center;
+  line-height: 24px;
+  padding-top: 20px;
+}
+
+/* FOOTER */
+.attribution {
+  position: fixed;
+  padding: 10px 10px 0px 10px;
+  bottom: 0;
+  width: 100%;
+  height: 30px;
+  font-size: 11px;
+  text-align: center;
+  color: white;
+}
+.attribution a {
+  color: #7c8798;
+  text-decoration: none;
+  transition: 0.5s;
+}
+.attribution a:hover {
+  color: #fc7614;
+}
